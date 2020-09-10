@@ -1,6 +1,6 @@
 # Naloga
 
-Z uporabo Reacta sprogramiraj prikaz Artistovih kartic s podatki in primarno navigcijo.
+Z uporabo Reacta sprogramiraj prikaz Artistovih kartic s podatki in primarno navigacijo. 
 
 Nalogo reši s pomočjo priloženih css/html/image datotek v folderju html-css-sample ter podatkov na linkih:
 
@@ -12,7 +12,7 @@ Artist detail:
 
 https://run.mocky.io/v3/{artist_uuid}
 
-Vsak artist naj ima svoj link (primer: http://locahost/{artist_uuid})
+Klik na ime artista v primarni navigaciji vodi na posameznega artista (URL: http://locahost/{artist_uuid}).
 
 Za prikaz sekcije "Most Popular In" uporabi knjižnico za grafe: https://nivo.rocks/
 
