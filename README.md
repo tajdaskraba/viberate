@@ -6,7 +6,7 @@ Nalogo reši s pomočjo priloženih css/html/image datotek v folderju html-css-s
 
 Primarna navigacija:
 
-https://run.mocky.io/v3/3cab6663-7cd8-4365-b8a6-4a1d89305f6a
+https://run.mocky.io/v3/3f51719a-f773-423c-97da-cc9d7a0467cd
 
 Artist detail:
 
