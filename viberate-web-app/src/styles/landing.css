@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'SuisseInt';
+  src: url('../styles/fonts/SuisseIntl-Regular.woff2') format('woff2'),
+       url('../styles/fonts/SuisseIntl-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SuisseInt';
+  src: url('../styles/fonts/SuisseIntl-Regular.woff2') format('woff2'),
+       url('../styles/fonts/SuisseIntl-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.landing-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../public/assets/images/static/article-seatle.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  font-family: 'SuisseInt', sans-serif !important;
+}
+
+.landing-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: fadeIn 2s ease-in;
+}
+
+.landing-content {
+  position: relative;
+  z-index: 1;
+}
+
+.landing-title {
+  font-family: 'SuisseInt', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  animation: slideDown 1s ease-out;
+}
+
+.landing-subtitle {
+  font-family: 'SuisseInt', sans-serif;
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { 
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
